@@ -1,20 +1,35 @@
-# K-Means Clustering Analysis
+# Naïve Bayes Classification
 
-This project demonstrates the application of **unsupervised machine learning** using K-Means clustering to identify meaningful patterns and segments within a dataset.
+This project applies the **Naïve Bayes classification algorithm** to solve a business-oriented prediction problem using structured data. The notebook demonstrates the complete workflow from data exploration to model evaluation.
 
 ## Objective
 
-To group data points into distinct clusters based on similarity, enabling better understanding of underlying structures and supporting data-driven business decisions such as customer segmentation or behavioral analysis.
+To build a probabilistic classification model that predicts outcomes based on input features, supporting data-driven decision-making in business contexts such as customer behavior analysis or risk prediction.
 
 ## Workflow
 
-The notebook follows a structured analytical process:
+The analysis follows these key steps:
 
-* Exploratory Data Analysis (EDA) to understand data distribution and relationships
-* Data cleaning and preprocessing, including handling missing values and feature scaling
-* Application of K-Means clustering
-* Selection of optimal number of clusters using appropriate evaluation techniques
-* Interpretation and visualization of cluster characteristics
+* Exploratory Data Analysis (EDA) to understand data structure, distributions, and relationships
+* Data cleaning and preprocessing, including handling missing values and encoding categorical variables
+* Feature selection and preparation for modeling
+* Training a Naïve Bayes classifier
+* Evaluating model performance using standard classification metrics
+
+## Model Used
+
+* Naïve Bayes Classifier
+
+This model is chosen for its simplicity, interpretability, and effectiveness on high-dimensional datasets with conditional independence assumptions.
+
+## Evaluation Metrics
+
+* Accuracy
+* Precision
+* Recall
+* F1-score
+
+These metrics are used to assess model performance in a business-relevant manner.
 
 ## Tools & Technologies
 
@@ -26,8 +41,8 @@ The notebook follows a structured analytical process:
 
 ## Outcome
 
-The analysis results in clearly defined clusters with interpretable characteristics, demonstrating how unsupervised learning can be used to extract actionable insights from unlabeled data.
+The project demonstrates how Naïve Bayes can be effectively applied to classification problems, providing interpretable results and actionable insights despite its simplifying assumptions.
 
 ## Files
 
-* `K-means_Clustering.ipynb` – Complete notebook containing data preparation, clustering, and analysis
+* `Näive_Bayes_Classifier.ipynb` – Jupyter notebook containing data preprocessing, model training, and evaluation
