@@ -67,3 +67,53 @@ Projects in this domain aim to uncover hidden structures, risks, and behavioral 
 
 ## Repository Structure
 
+```
+Predictive-Analytics/
+│
+├─ business_cases/
+│   ├─ <project_or_domain_name>/
+│   │   ├─ README.md
+│   │   └─ notebook.ipynb
+│
+├─ README.md
+├─ LICENSE
+└─ .gitignore
+```
+
+Each project folder contains:
+
+* A dedicated `README.md` describing the business problem, analytical approach, and key findings
+* One or more Jupyter notebooks with the full analytical workflow
+
+---
+
+## Skills Demonstrated
+
+* Data cleaning and preprocessing
+* Exploratory Data Analysis (EDA)
+* Feature engineering
+* Supervised and unsupervised machine learning
+* Model evaluation and selection
+* Translating analytical results into business recommendations
+
+---
+
+## Tools & Technologies
+
+* Python
+* pandas, NumPy
+* scikit-learn
+* matplotlib, seaborn
+* Jupyter Notebook
+
+---
+
+## Portfolio Objective
+
+This repository is intended to demonstrate the ability to:
+
+* Translate business problems into analytical tasks
+* Build, evaluate, and interpret predictive models
+* Communicate insights in a business-relevant manner
+
+It is designed for recruiters, hiring managers, and practitioners interested in applied machine learning and predictive analytics for real business use cases.
